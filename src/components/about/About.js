@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import {Route, Link } from "react-router-dom";
 
 import Departments from './Departments';
 import Management from './Management';
 import Organization from './Organization';
 
 class About extends Component{
-    constructor(props){
-        super(props)
-        // console.log(props.match.url)  // /about
-    }
+    // constructor(props){
+    //     super(props)
+    //     // console.log(props.match.url)  // /about
+    // }
     render(){
         return(
          

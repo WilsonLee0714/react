@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 class Contact extends Component {
-  constructor(props) {
-    super(props);
-  }
+  // constructor(props) {
+  //   super(props);
+  // }
   render() {
     return (
       <React.Fragment>
@@ -42,6 +42,11 @@ class Contact extends Component {
               <li className="nav-item">
                 <Link className="nav-link" to="/store">
                   24商城
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/member">
+                  會員管理
                 </Link>
               </li>
             </ul>
